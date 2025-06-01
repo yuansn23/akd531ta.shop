@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Stock Meister - AI株式分析</title>
+	<link rel="stylesheet" href="css/1.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="container">
+            <div class="header-logo">
+                <img src="images/header-logo.jpg" alt="Stock Meister">
+            </div>
+        </div>
+    </header>
+    
+    <!-- 新ヒーローセクション -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">AIが導く<span>株式投資の成功</span></h1>
+                    <p class="hero-subtitle">市場の不確実性をAI分析で解消。経験豊富なアナリストチームと最新テクノロジーが、あなたの投資判断をデータ駆動型に進化させます。</p>
+                    <button class="btn btn-orange" onclick="openra()">無料診断を開始</button>
+                </div>
+                <div class="hero-image">
+                    <img src="images/M0.png" alt="AI株式分析">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ステップセクション -->
+    <section class="section">
+        <div class="container">
+            <div class="steps">
+                <h2 class="steps-title">3ステップで完了する株式診断</h2>
+                <div class="steps-list">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-text">簡単な質問に回答</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-text">興味のある銘柄を選択</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-text">詳細分析レポートを受け取る</div>
+                    </div>
+                </div>
+                <button class="btn btn-center" onclick="openra()">LINEで今すぐ診断</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 懸念セクション -->
+    <section class="concerns">
+        <div class="container">
+            <div class="concerns-content">
+                <div class="concerns-text">
+                    <h3>銘柄選びの悩みを解消</h3>
+                    <p>株式市場には数千の銘柄が存在し、どの企業に投資すべきか判断に迷う投資家は少なくありません。私たちのAI分析ツールは、市場動向から企業財務まで多角的に分析し、あなたに最適な投資判断を提案します。</p>
+                    <button class="btn btn-black" onclick="openra()">専門家に相談する</button>
+                </div>
+                <div class="concerns-images">
+                    <img src="images/mv_bottom_img01.png" alt="銘柄選び" class="concerns-img">
+                    <img src="images/A2.png" alt="AI分析" class="concerns-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- AIセクション -->
+    <section class="ai-trend">
+        <div class="container">
+            <h2 class="section-title">AIが抽出する短期トレンド</h2>
+            <div class="ai-content">
+                <div class="ai-image">
+                    <img src="images/M2.png" alt="AIトレンド分析">
+                </div>
+                <div class="ai-text">
+                    <h3>市場の動きを先読みする技術</h3>
+                    <p>私たちのAIシステムは、過去10年間の市場データとリアルタイムニュースを統合分析し、短期間での株価変動パターンを特定します。これにより、通常では気づけない投資機会を可視化し、最適な売買タイミングを提案します。</p>
+                    <button class="btn btn-orange" onclick="openra()">無料分析を受ける</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- アクションセクション -->
+    <section class="action-section">
+        <div class="container">
+            <h2 class="action-title">今こそ始める時</h2>
+            <p class="action-subtitle">LINEで簡単登録後、AI株式分析の真価を体感してください。投資経験の有無にかかわらず、すべての投資家にとって価値あるツールとなることをお約束します。</p>
+            <img src="images/M4.png" alt="LINE登録" class="action-image">
+            <button class="btn" style="background-color: white; color: #FF6B00; font-size: 1.4rem; padding: 18px 45px;" onclick="openra()">LINEで今すぐ登録</button>
+        </div>
+    </section>
+    
+    <!-- レビューセクション -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">利用者の声</h2>
+            <div class="review-images">
+                <img src="images/R1.png" alt="ユーザーレビュー1" class="review-img">
+                <img src="images/R2.png" alt="ユーザーレビュー2" class="review-img">
+                <img src="images/R4.png" alt="ユーザーレビュー3" class="review-img">
+            </div>
+        </div>
+    </section>
+    
+    <!-- アバウトセクション -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">Stock Meisterについて</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about02_img01.png" alt="Stock Meister">
+                </div>
+                <div class="about-text">
+                    <h3>100,000件以上の実績</h3>
+                    <p>Stock Meisterは金融市場分析の専門家集団として、10年以上にわたり投資家の資産形成をサポートしてきました。私たちは伝統的なファンダメンタル分析にAI技術を融合させ、市場の不確実性を軽減する独自の分析手法を開発しました。特定銘柄やセクター別の分析が必要な場合も、LINEでお気軽にご相談ください。認定アナリストが丁寧に対応いたします。</p>
+                    <button class="btn btn-orange" onclick="openra()">アナリストに相談</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQセクション -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">よくある質問</h2>
+            <div class="faq-item">
+                <div class="faq-question">サービスの利用方法を教えてください</div>
+                <div class="faq-answer">
+                    <p>LINEで「Stock Meister」を友だち追加後、「2025」とメッセージを送信するだけで、無料診断サービスがご利用いただけます。追加の登録や面倒な手続きは一切不要です。</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">無料版と有料版の違いは？</div>
+                <div class="faq-answer">
+                    <p>無料版では基本的な銘柄分析と簡易レポートをご提供します。有料版ではより詳細な分析データ、アナリストとの1対1相談、ポートフォリオ最適化ツールなど、プロ投資家向けの高度な機能が利用可能です。まずは無料版でサービスの価値を実感してください。</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">投資初心者でも利用できますか？</div>
+                <div class="faq-answer">
+                    <p>もちろんです。当サービスは投資初心者の方にもわかりやすいインターフェースと解説を心がけています。専門用語の解説や基本的な投資知識についても、LINEで随時質問可能です。まずは無料診断で、AIが提案する銘柄をチェックしてみてください。</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <button class="btn" onclick="openra()">LINEで質問する</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- フッター -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="Privacy.html" class="footer-link">プライバシーポリシー</a>
+                <a href="terms.html" class="footer-link">利用規約</a>
+            </div>
+            <div class="disclaimer">
+                <p>免責事項: 本ページで提供される情報は教育および宣伝目的のみであり、いかなる形式の投資助言、証券推奨、または財務計画サービスを構成するものではありません。あなたは個人的な財務状況およびリスク許容度に基づき、ライセンスを受けた専門家の助言を求めた上で投資判断を行うべきです。</p>
+                <p>投資にはリスクが伴います。過去の実績は将来の結果を保証するものではありません。本サービスで提供される情報は、投資判断の唯一の基礎として依存すべきではありません。</p>
+                <p>当社は、本情報の使用または誤使用に起因するいかなる損失または損害についても責任を負いません。投資決定を行う前に、必ず独自の調査を行い、適格な金融専門家に相談してください。</p>
+            </div>
+            <div class="copyright">
+                &copy; 2023 Stock Meister. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    
+  
+    
+    <!-- フローティングボタン -->
+    <div class="floating-btn">
+        <button class="btn" onclick="openra()">今すぐLINEで無料相談する</button>
+    </div>
+    
+    <script>
+        // LINEを開く関数
+        function openra() {
+            window.open('https://line.me/R/', '_blank');
+        }
+        
+        // FAQアコーディオン
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const answer = question.nextElementSibling;
+                    answer.classList.toggle('show');
+                    
+                    // 他の回答を閉じる
+                    faqQuestions.forEach(q => {
+                        if (q !== question) {
+                            q.nextElementSibling.classList.remove('show');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
